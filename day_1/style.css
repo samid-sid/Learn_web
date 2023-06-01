@@ -1,0 +1,38 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+    font-size: 100px;
+}
+
+p{
+    color: brown;
+    font-size: xx-large;
+}
+
+#first{
+    color: whitesmoke;
+    background-color: black;
+}
+
+article{
+    font-size: 30px;
+    background-color: yellowgreen;
+}
+
+.head{
+    text-align: right;
+    color: tomato;
+    font-size: 40px;
+}   
+
+article,.head2{
+
+    text-align: center;
+    color: orchid;
+}
+
+h3.head{
+    text-align: center;
+    font-size: 40px;
+    text-align: left;
+}
