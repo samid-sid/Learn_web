@@ -1,0 +1,26 @@
+h2{
+    text-align: center;
+    color:red;
+}
+
+.para{
+    font-size: 40px;
+    font-style:italic;
+    font-weight: 500px;
+    line-height: 1cm;
+    font-family: 'Dancing Script', cursive;
+    background-color: hsla(96, 80%, 48%, 0.555);
+
+
+}
+
+#first{
+    font-size: 1cm;
+    background-color: #ce9141;
+}
+
+#second{
+    font-size: 1cm;
+
+    background-color: rgba(43, 119, 219, 0.616);
+}
