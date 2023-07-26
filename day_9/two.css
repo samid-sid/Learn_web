@@ -1,0 +1,39 @@
+.container {
+  background-color: aquamarine;
+  border: 4px salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+}
+.box {
+  height: 200px;
+  width: 300px;
+  background-color: bisque;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: auto;
+  transition: all 1s linear;
+}
+
+.box:hover {
+  /* transform: rotate(90deg); */
+  /* transform: scale(0.5);
+   */
+    /* transform: skew(2); */
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+  /* transform: skew(45deg,45deg); */
+  /* transform: translate(-300px,-100px);
+     */
+
+  background-color: gold;
+}
+
+h1 {
+  text-align: center;
+}
